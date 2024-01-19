@@ -1,6 +1,8 @@
 
 # Power Page for Developers
 
+# Day 1
+
 ## Check the environment
 
 1. Sign in เข้าใช้งาน Power Page
@@ -13,9 +15,32 @@
 
 ## Liquid Framework
 
-1. [Overview](contents/liquid-framework/overview.md)
-2. [การสร้าง Web Template](contents/liquid-framework/create-web-template.md)
-3. 
+1. [การสร้าง Web Template และ Page Template](contents/liquid-framework/create-web-template.md)
+2. [การใช้ Liquid tag ใน Web Template](contents/liquid-framework/liquid-tag.md)
+3. [การนำข้อมูลจาก Dataverse มาแสดงผลใน Liquid tag](contents/liquid-framework/liquid-tag-with-dataverse.md)
+4. [Permission และ Liquid tag](contents/liquid-framework/security-and-liquid-tag.md)
+5. [การใช้งาน Liquid filter](contents/liquid-framework/liquid-tag-reference.md)
+> 6. [การส่งผ่าน Parameter](contents/liquid-framework/passing-parameter-via-web-template.md)
+
+## Code Component
+
+1. [การสร้าง Code Component จาก Web Template](contents/liquid-framework/create-code-component-from-web-template.md)
+2. [การใช้งาน Hybrid Naivagation](contents/liquid-framework/hybrid-navigation.md)
+
+# Day 2
+
+## Client Code component with React
+
+1. [Overview](contents/react/overview.md)
+2. [การสร้าง React Code component](contents/react/create-react-code-component.md)
+3. [การจัดการ Package ของ React Code component](contents/react/package-management.md)
+
+## การเรียกใช้งาน Code Component
+
+1. [การเรียกใช้งาน Code Component ใน Power Page](contents/using-code-component-in-power-page.md)
+2. [การเรียกใช้งานใน Model Driven Application]
+
+
 
 ## Publish the component
 
