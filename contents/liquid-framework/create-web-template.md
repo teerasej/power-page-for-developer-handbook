@@ -1,5 +1,5 @@
 
-# การสร้าง Web Template และ Page Template รวมถึงวิธีใช้งานใน Edit View
+# การสร้าง Web Template และ Page Template รวมถึงวิธีใช้งานใน Power Page Portal
 
 ## 1. สร้าง Web Template ใน Power Page
 
@@ -17,9 +17,9 @@
 <img width="441" alt="2024-01-18_14-36-18" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/a8f7a5db-f972-4bbb-9e8e-f1db6b9d1357">
 
 5. ให้กรอกข้อมูลต่างๆ ในส่วน **General** ตามรูปด้านล่างดังนี้ และกดปุ่ม **Save & Close** เมื่อเสร็จสิ้น
-   1. Name: Greeting
-   2. Website: ให้เลือก Website ที่เราสร้างไว้
-   3. Source: 
+   1. **Name:**  Greeting
+   2. **Website:** ให้เลือก Website ที่เราสร้างไว้
+   3. **Source:** 
    ```
     <h1>สวัสดี</h1>
    ```
@@ -38,18 +38,18 @@
 <img width="510" alt="2024-01-18_14-38-14" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/ad5a1318-5f86-4d6f-94d0-390c1f151a85">
 
 2. ให้กรอกข้อมูลต่างๆ ในส่วน **General** ตามรูปด้านล่างดังนี้ และกดปุ่ม **Save & Close** เมื่อเสร็จสิ้น 
-   1. Name: Greeting Page
-   2. Website: ให้เลือก Website ที่เราสร้างไว้
-   3. Type: Web Template
-   4. Web Template: ให้เลือก **Greeting** ที่เราสร้างไว้
-   5. Use Website Header and Footer: กดติ๊กเพื่อเลือก
-   6. Is Default: ไม่ต้องกดติ๊ก
-   7. Table Name: ให้กดเลือก Web Page (mspp_webpage) จากที่รายการทางขวา
+   1. **Name:** Greeting Page
+   2. **Website:** ให้เลือก Website ที่เราสร้างไว้
+   3. **Type:** Web Template
+   4. **Web Template:** ให้เลือก **Greeting** ที่เราสร้างไว้
+   5. **Use Website Header and Footer:** กดติ๊กเพื่อเลือก
+   6. **Is Default:** ไม่ต้องกดติ๊ก
+   7. **Table Name:**ให้กดเลือก Web Page (mspp_webpage) จากที่รายการทางขวา
 
 <img width="1053" alt="2024-01-18_14-38-55" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/6b6a344d-697f-47fd-ab8a-462543cca9f5">
 
 
-## 3. วิธีเลือกใช้งาน Page Template ใน Edit View
+## 3. วิธีเลือกใช้งาน Page Template ใน Power Page Portal
 
 1. กลับมาที่หน้า Home Page ของ Power Page https://make.powerpages.microsoft.com/
 2. จากเว็บไซต์ที่เราเข้าไปสร้าง Web Template ไว้ตอนแรก ให้กดปุ่ม Edit ตามรูปด้านล่าง
@@ -61,8 +61,8 @@
 <img width="355" alt="2024-01-18_14-39-38" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/90553db5-460d-48e4-bdfd-d976ae781ac7">
 
 4. กำหนดค่าตามรูปด้านล่าง และกดปุ่ม Add เมื่อเสร็จสิ้น
-   1. Page name: Say Hi
-   2. Custom Layout: Greeting Page (นี่คือ Page template ที่เราสร้างไว้ก่อนหน้านี้)
+   1. **Page Name:**  Say Hi
+   2. **Custom Layout:** Greeting Page (นี่คือ Page template ที่เราสร้างไว้ก่อนหน้านี้)
 
 > หากไม่มี Greeting Page ให้เลือก กดปุ่ม Sync ที่อยู่ด้านบนขวาของหน้าจอเพื่อ sync การตั้งค่ารวมถึง Page template ที่เราสร้างไว้ก่อนหน้านี้
 
@@ -72,4 +72,4 @@
       
 <img width="1167" alt="2024-01-18_14-40-22" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/afc7b377-1a72-4a3f-96c2-48cb494d82b3">
 
-6. เสร็จสมบูรณ์
+**-- เสร็จสมบูรณ์ เย้ --**

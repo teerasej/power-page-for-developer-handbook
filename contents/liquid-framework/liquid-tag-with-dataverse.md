@@ -51,9 +51,9 @@
 
 
 4. สร้าง Permission และกรอกข้อมูลตามด้านล่าง เสร็จแล้วกดปุ่ม Save
-   1. Name: Account Directory
+   1. **Name:** Account Directory
    2. Table: Account
-   3. Access Type: Global Access
+   3. **Access Type:**  Global Access
    4. Permission to: Read
    5. Roles
       1. Anonymous
@@ -76,3 +76,5 @@
 3. ควรได้ผลลัพธ์ประมาณรูปด้านล่าง 
 
 <img width="1212" alt="2024-01-19_15-12-02" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/2f65a022-b685-4025-b29d-409ceededcd0">
+
+**-- เสร็จสมบูรณ์ เย้ --**

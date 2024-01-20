@@ -44,9 +44,9 @@
 1. กด back กลับมาที่หน้า Web Template
 2. จากเมนูด้านบนให้เลือก **New** 
 3. กรอกข้อมูลต่างๆ ในส่วน **General** ตามข้อมูลด้านล่าง 
-   1. Name: Directory Template
-   2. Website: ให้เลือก Website ที่เราสร้างไว้
-   3. Source: 
+   1. **Name:** Directory Template
+   2. **Website:** ให้เลือก Website ที่เราสร้างไว้
+   3. **Source:** 
    ```html
    {% extends "Layout 2 Column Wide Left" %}
 
@@ -80,16 +80,16 @@
 <img width="510" alt="2024-01-18_14-38-14" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/ad5a1318-5f86-4d6f-94d0-390c1f151a85">
 
 2. ให้กรอกข้อมูลต่างๆ ในส่วน **General** ตามข้อมูลด้านล่างดังนี้ และกดปุ่ม **Save & Close** เมื่อเสร็จสิ้น 
-   1. Name: Directory Page
-   2. Website: ให้เลือก Website ที่เราสร้างไว้
-   3. Type: Web Template
-   4. Web Template: ให้เลือก **Directory Template** ที่เราสร้างไว้
-   5. Use Website Header and Footer: กดติ๊กเพื่อเลือก
-   6. Is Default: ไม่ต้องกดติ๊ก
-   7. Table Name: ให้กดเลือก Web Page (mspp_webpage) จากที่รายการทางขวา
+   1. **Name:** Directory Page
+   2. **Website:** ให้เลือก Website ที่เราสร้างไว้
+   3. **Type:** Web Template
+   4. **Web Template:** ให้เลือก **Directory Template** ที่เราสร้างไว้
+   5. **Use Website Header and Footer:** กดติ๊กเพื่อเลือก
+   6. **Is Default:** ไม่ต้องกดติ๊ก
+   7. **Table Name:**ให้กดเลือก Web Page (mspp_webpage) จากที่รายการทางขวา
 
 
-## 4. วิธีเลือกใช้งาน Page Template ใน Edit View
+## 4. วิธีเลือกใช้งาน Page Template ใน Power Page Portal
 
 1. กลับมาที่หน้า Home Page ของ Power Page https://make.powerpages.microsoft.com/
 2. จากเว็บไซต์ที่เราเข้าไปสร้าง Web Template ไว้ตอนแรก ให้กดปุ่ม Edit ตามรูปด้านล่าง
@@ -101,8 +101,8 @@
 <img width="355" alt="2024-01-18_14-39-38" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/90553db5-460d-48e4-bdfd-d976ae781ac7">
 
 4. กำหนดค่าตามรูปด้านล่าง และกดปุ่ม Add เมื่อเสร็จสิ้น
-   1. Page name: Directory Page
-   2. Custom Layout: Directory Page (นี่คือ Page template ที่เราสร้างไว้ก่อนหน้านี้)
+   1. **Page Name:**  Directory Page
+   2. **Custom Layout:** Directory Page (นี่คือ Page template ที่เราสร้างไว้ก่อนหน้านี้)
 
 > หากไม่มี Directory Page ให้เลือก กดปุ่ม Sync ที่อยู่ด้านบนขวาของหน้าจอเพื่อ sync การตั้งค่ารวมถึง Page template ที่เราสร้างไว้ก่อนหน้านี้
 
@@ -122,7 +122,7 @@
 
 4. จากเมนูด้านบนให้เลือก **New** 
 5. กรอกข้อมูลต่างๆ ในส่วน **General** ตามข้อมูลด้านล่าง เสร็จแล้วกดปุ่ม **Save & Close**
-   1. **Name:** Directory List
+   1. **Name:**  Directory List
    2. **Website:** ให้เลือก Website ที่เราสร้างไว้
    3. **Source:** 
    ```html
@@ -147,5 +147,8 @@
   สังเกตว่าเราเพิ่ม Liquid tag `{% include %}` ในการเรียกใช้งาน Web Template ที่ชื่อว่า Directory List ที่เราสร้างไว้ก่อนหน้านี้
 
 8. กดปุ่ม **Save & Close**
-9. กลับไปที่ Edit view และกดปุ่ม sync 
+9. กลับไปที่ Power Page Portal และกดปุ่ม sync 
 10. ทำการพรีวิวหน้าเว็บไซต์ และเลือก Directory Page ที่เราสร้างไว้ก่อนหน้านี้ 
+
+
+**-- เสร็จสมบูรณ์ เย้ --**

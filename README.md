@@ -20,12 +20,16 @@
 3. [การนำข้อมูลจาก Dataverse มาแสดงผลใน Liquid tag](contents/liquid-framework/liquid-tag-with-dataverse.md)
 4. [Permission และ Liquid tag](contents/liquid-framework/security-and-liquid-tag.md)
 5. [การใช้งาน Liquid filter](contents/liquid-framework/liquid-tag-reference.md)
-> 6. [การส่งผ่าน Parameter](contents/liquid-framework/passing-parameter-via-web-template.md)
+
+## Hybrid Navigation
+
+- [การใช้งาน Hybrid Naivagation](contents/liquid-framework/hybrid-navigation.md)
+
 
 ## Code Component
 
-1. [การสร้าง Code Component จาก Web Template](contents/liquid-framework/create-code-component-from-web-template.md)
-2. [การใช้งาน Hybrid Naivagation](contents/liquid-framework/hybrid-navigation.md)
+- [การสร้าง Code Component จาก Web Template](contents/liquid-framework/create-code-component-from-web-template.md)
+
 
 # Day 2
 

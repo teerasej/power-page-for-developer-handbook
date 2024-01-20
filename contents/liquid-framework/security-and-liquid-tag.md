@@ -64,17 +64,19 @@
 ## 3. ทดสอบยกเลิก Anonymous Permission
 
 
-1. กลับมาที่หน้า Edit View ของ Power Page https://make.powerpages.microsoft.com/
+1. กลับมาที่หน้า Power Page Portal ของ Power Page https://make.powerpages.microsoft.com/
 
 2. จากเมนูด้านซ้าย ให้เลือก **Set up > Security > Table Permission** และกดเลือก Permission ชื่อ **Account Directory** ตามรูปด้านล่าง 
 
 <img width="1037" alt="2024-01-19_15-17-31" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/4dbc0af7-f323-4814-9775-94f9cb398099">
 
-3. จาก Roles ให้เลือก **Anonymous** และกดปุ่ม **Remove** เพื่อลบ Permission ของ Anonymous ออก
+3. จาก Roles ให้เลือก **Anonymous** และกดปุ่ม **Remove** เพื่อลบ Permission ของ **Anonymous** ออก
 
 <img width="581" alt="2024-01-19_15-41-49" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/111847c1-ab1d-4e93-99a5-90898d82a3f2">
 
-4. กดปุ่ม Save
-5. ทดสอบพรีวิวหน้าเว็บ Directory Page อีกครั้ง ควรได้ผลลัพธ์ใกล้เคียงด้านล่าง
+4. กดปุ่ม **Save**
+5. ทดสอบพรีวิวหน้าเว็บ **Directory Page** อีกครั้ง ควรได้ผลลัพธ์ใกล้เคียงด้านล่าง
 
 <img width="1274" alt="2024-01-19_15-43-46" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/35a0735c-cb68-43ba-8094-1150804ca42a">
+
+**-- เสร็จสมบูรณ์ เย้ --**

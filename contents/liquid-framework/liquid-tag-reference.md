@@ -37,9 +37,9 @@
 
 
 4. สร้าง Permission และกรอกข้อมูลตามด้านล่าง เสร็จแล้วกดปุ่ม Save
-   1. Name: Product List
+   1. **Name:** Product List
    2. Table: เลือก Table Product ที่สร้างไว้
-   3. Access Type: Global Access
+   3. **Access Type:**  Global Access
    4. Permission to: Read
    5. Roles
       1. Anonymous
@@ -61,9 +61,9 @@
 <img width="214" alt="2024-01-18_14-35-34" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/0c4e482d-047f-4ee2-ad9d-f66b8ff6b8c5">
 
 4. ให้กรอกข้อมูลต่างๆ ในส่วน **General** ตามรูปด้านล่างดังนี้ และกดปุ่ม **Save & Close** เมื่อเสร็จสิ้น
-   1. Name: Product List Template
-   2. Website: ให้เลือก Website ที่เราสร้างไว้
-   3. Source: 
+   1. **Name:** Product List Template
+   2. **Website:** ให้เลือก Website ที่เราสร้างไว้
+   3. **Source:** 
     ```html
     <h1>Title: {{ page.title }}</h1>
 
@@ -88,7 +88,7 @@
 <img width="510" alt="2024-01-18_14-38-14" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/ad5a1318-5f86-4d6f-94d0-390c1f151a85">
 
 2. ให้กรอกข้อมูลต่างๆ ในส่วน **General** ตามด้านล่างดังนี้ และกดปุ่ม **Save & Close** เมื่อเสร็จสิ้น 
-   1. **Name:** Product List Page
+   1. **Name:**  Product List Page
    2. **Website:** ให้เลือก Website ที่เราสร้างไว้
    3. **Type:** Web Template
    4. **Web Template:** ให้เลือก **Product List Template** ที่เราสร้างไว้
@@ -97,7 +97,7 @@
    7. **Table Name:** ให้กดเลือก Web Page (mspp_webpage) จากที่รายการทางขวา
 
 
-## 5. วิธีเลือกใช้งาน Page Template ใน Edit View
+## 5. วิธีเลือกใช้งาน Page Template ใน Power Page Portal
 
 1. กลับมาที่หน้า Home Page ของ Power Page https://make.powerpages.microsoft.com/
 2. จากเว็บไซต์ที่เราเข้าไปสร้าง Web Template ไว้ตอนแรก ให้กดปุ่ม Edit ตามรูปด้านล่าง
@@ -152,3 +152,5 @@
 3. ควรได้ผลลัพธ์ใกล้เคียงรูปด้านล่าง 
 
 <img width="777" alt="2024-01-19_17-16-38" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/a42b9e91-3dd1-4f27-b058-7ee7bd1d3546">
+
+**-- เสร็จสมบูรณ์ เย้ --**
