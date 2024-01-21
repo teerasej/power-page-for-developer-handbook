@@ -5,7 +5,8 @@
 
 ## Check the environment
 
-1. Sign in เข้าใช้งาน Power Page
+1. [ตรวจดู Power Page environment](contents/check-the-environment.md)
+2. [สร้าง Table Product](contents/create-table-product.md)
 
 ## Power Page Tools
 
