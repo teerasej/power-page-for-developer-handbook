@@ -126,6 +126,7 @@
 ## 6. การใช้งาน Liquid Tag ใน Web Template 
 
 1. แก้ไข Web Template '**Product List Template**' ที่เราสร้างไว้ก่อนหน้านี้ โดยให้แทนที่ด้วย code ตามด้านล่างนี้
+2. ให้แทนที่ name ของ Entity, attribute ด้วยค่า Name ที่จดเอาไว้จาก Table ใน Dataverse ตอนแรก
 
 ```html
 <h1>Title: {{ page.title }}</h1>
@@ -151,7 +152,7 @@
 
 ```
 
-   - สังเกตว่าเรามีการกำหนดชื่อ attribute `ponnf_stock` และ `ponnf_name` โดยตรง ซึ่งเป็นชื่อของ Column ที่เราสร้างไว้ใน Dataverse เพื่อดึงข้อมูลมาจาก table ชื่อ `ponnf_product`
+   - สังเกตว่าเรามีการกำหนดชื่อ attribute `ponnf_stock` และ `ponnf_name` โดยตรง ซึ่งเป็นชื่อของ Column ที่เราสร้างไว้ใน Dataverse เพื่อดึงข้อมูลมาจาก table ชื่อ `ponnf_product` 
    - เรามีการใช้ `{% if %}` tag ในการกรองข้อมูล โดยใช้ `product.ponnf_stock` ซึ่งเป็นชื่อของ Column ที่เราสร้างไว้ใน Dataverse
 
 2. เสร็จแล้วกดปุ่ม **Save & Close** และให้ทดสอบการทำงาน
