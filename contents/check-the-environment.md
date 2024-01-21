@@ -8,6 +8,9 @@
 2. ในส่วน Environment ให้ตรวจสอบว่าเราได้เลือก **PowerPagesDeveloperXXXX** environment หรือไม่
 
 > เลขด้านหลังชื่อ PowerPagesDeveloper จะเป็นแบบสุ่ม ไม่เหมือนกันทุกคน
+
+> สำหรับบางคน Environment จะอยู่ในส่วน Power Page Environment และบางคนอาจจะอยู่ใน Other Environment
+
 <img width="470" alt="2024-01-21_10-31-22" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/50255e24-a133-4b4e-bc64-6036b11d4c75">
 
 
