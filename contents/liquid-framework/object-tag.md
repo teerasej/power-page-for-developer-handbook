@@ -5,7 +5,6 @@
 
 1. เปิด Power Page https://make.powerpages.microsoft.com/
 2. จากตัวเลือก Website ให้เลือก (...) และเลือก **Power Page Management** ตามรูปด้านล่าง
-
 <img width="902" alt="2024-01-18_14-33-16" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/68cb3fb7-e7ee-4b3d-bf08-c7cee47a6851">
 
 3. จากเมนูด้านซ้าย ให้เลือก **Content > Web Template** ตามรูปด้านล่าง
@@ -33,7 +32,6 @@
 
 
 1. จากเมนูด้านซ้าย ให้เลือก **Website > Page Template > กดปุ่ม New** ตามรูปด้านล่าง
-
 <img width="510" alt="2024-01-18_14-38-14" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/ad5a1318-5f86-4d6f-94d0-390c1f151a85">
 
 2. ให้กรอกข้อมูลต่างๆ ในส่วน **General** ตามรายละเอียดด้านล่างดังนี้ และกดปุ่ม **Save & Close** เมื่อเสร็จสิ้น 
@@ -50,7 +48,6 @@
 
 1. กลับมาที่หน้า Home Page ของ Power Page https://make.powerpages.microsoft.com/
 2. จากเว็บไซต์ที่เราเข้าไปสร้าง Web Template ไว้ตอนแรก ให้กดปุ่ม Edit ตามรูปด้านล่าง
-
 <img width="595" alt="2024-01-18_14-39-14" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/1ce41cc5-d7f8-4350-a21d-348960006cc0">
 
 3. จากเมนู Page ให้กดเลือก **+ Page** ตามรูปด้านล่าง

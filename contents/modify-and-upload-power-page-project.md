@@ -33,11 +33,13 @@ pac powerpages upload --modelVersion 2 --path "[project directory]"
 2. เลือก Edit Website ของ Power Page ที่เราต้องการ
 3. กดเปิด **Pages** เมนูจากด้านซ้ายมือ
 4. เลือก **Home** จากรายการ Page
-   
+
 <img width="354" alt="2024-01-18_14-22-42" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/c05156f4-ea9e-4bbd-93af-9645d57d64c0">
 
-5. ถ้าไม่พบการเปลี่ยนแปลงบนส่วน Edit ให้กดปุ่ม **Sync** จากด้านบนขวามือ
 
+5. ถ้าไม่พบการเปลี่ยนแปลงบนส่วน Edit ให้กดปุ่ม **Sync** จากด้านบนขวามือ
 <img width="490" alt="2024-01-18_14-25-41" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/4a4ab054-f6df-4256-846c-cba15c17bafc">
 
 6. กดปุ่ม Preview เพื่อดูผลลัพธ์การทำงาน
+
+**-- เสร็จสมบูรณ์ เย้ --**
