@@ -1,33 +1,39 @@
 
 # Modify and upload Power Page Project
 
-## 1. การแก้ไข Power Page Website ใน Visual Studio Code
 
-จากโฟลเดอร์โปรเจค Power Page Website ที่ดึงมาจาก Power Platform มาใช้งาน ให้ทำการแก้ไขไฟล์ `web-pages/home/content-pages/Home.en-US.webpage.copy.html` ตามคำสั่งด้านล่าง
+## 1. แก้ไขโค้ด ในหน้า Home Page และอัพโหลดคืนระบบ 
 
-```html
-<!-- จากบรรทัดที่ 5 -->
-<h1>Create an engaging headline, welcome, or call to action</h1>
-```
+1. ในส่วนของ Explorer View ใน Visual Studio Code ให้เราเปิดไฟล์ **my-site---site-0f1f4/web-pages/home/content-pages/Home.en-US.webpage.copy.html**
 
-เปลี่ยนเป็น
+2. แก้ไขโค้ดในบรรทัดที่ 5 จาก
 
-```html
-<!-- จากบรรทัดที่ 5 -->
-<h1>Hello World</h1>
-```
+    ```jsx
+    <h1>Create an engaging headline, welcome, or call to action</h1>
+    ```
+    ให้เป็น 
+    ```jsx
+    <h1>Hello World</h1>
+    ```
+3. บันทึกไฟล์
+4. คลิกขวาที่โฟลเดอร์โปรเจคที่ได้มา และเลือกคำสั่ง **Open in integrated terminal** แบบรูปด้านล่าง
+   <img width="430" alt="2024-01-23_21-32-17" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/099cd809-06e5-4beb-9dcc-7e2521912d93">
 
-## 2. การอัพโหลดไฟล์โปรเจค Power Page Website ที่แก้ไขแล้ว กลับไปที่ Power Platform
+5. รันคำสั่งด้านล่าง เพื่ออัพโหลด Source code ของ Power Page กลับไปยังระบบ
+    ```bash
+    pac powerpages upload --path . --modelVersion 2 
+    ```
+    หากการทำงานเสร็จสิ้น ระบบจะแสดงข้อความประมาณด้านล่าง
+    ```bash
+    ...
+    Power Pages website upload succeeded in 11.93 secs.
+    ```
 
-รันคำสั่งด้านล่าง ใน Terminal เพื่ออัพโหลดไฟล์โปรเจค Power Page Website ที่แก้ไขแล้ว กลับไปที่ Power Platform
+6. กลับไปที่ Power Page Portal เพื่อเช็คการเปลี่ยนแปลง โดยการกดปุ่ม **Sync** 
 
-- ให้แทนที่ `[project directory]` ด้วยชื่อโฟลเดอร์โปรเจคที่เราต้องการจะอัพโหลดกลับไปที่ Power Platform
 
-```bash
-pac powerpages upload --modelVersion 2 --path "[project directory]" 
-```
 
-## 3. การเปิดดู Power Page Website ที่แก้ไขแล้ว ใน Power Platform
+## 2. การเปิดดู Power Page Website ที่แก้ไขแล้ว ใน Power Platform
 
 1. กลับมาที่ Power Page https://make.powerpages.microsoft.com/
 2. เลือก Edit Website ของ Power Page ที่เราต้องการ

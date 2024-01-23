@@ -1,33 +1,34 @@
 
 # Fetching Power Page Project
 
-## 1. การแสดงรายการ Power Page Website ทั้งหมด
 
-รันคำสั่ง 
+## 1. แสดงรายการของ Website ใน Environment 
 
-```bash
-pac powerpage list
-```
+1. กลับมาที่ Terminal ใน Visual Studio Code
+2. รันคำสั่งด้านล่างใน Terminal 
+    ```bash
+    pac powerpages list
+    ```
+    ระบบจะแสดงรายการ Website ที่เราสามารถเข้าใช้งานได้ คล้ายตัวอย่างด้านล่าง
 
-จะแสดงรายการ Power Page Website ทั้งหมดที่เราสามารถเข้าใช้งานได้
+    ```bash
+    Index      Website Id                  Friendly Name                                 
+    [1]        XXXX-XXXX-XXXX-XXXX-XXXX    Site 1 - site-XXXXX  
+    ```
 
-> ในที่นี้ให้ทำการ copy websiteId ที่ต้องการจะดึงไฟล์โปรเจคมาใช้งานเอาไว้
+3. ให้เราคัดลอก Website Id เอาไว้
 
-## 2. การดึงไฟล์โปรเจค Power Page Website จาก Power Platform 
+## 2. ดาวน์โหลด Source code ของ Power Page 
 
-1. เปิดโปรแกรม Visual Studio Code 
-2. เปิด `C:\Project\PowerPageForDev\Lab01` ขึ้นมาในโปรแกรม Visual Studio Code
-3. และเปิด Terminal ขึ้นมา
+1. กลับมาที่ Terminal ใน Visual Studio Code
+2. รันคำสั่งด้านล่างใน Terminal โดยให้แทนที่ `<Website ID>` ด้วยค่า Website ID ที่ได้มา
+    ```bash
+    pac powerpages download --path . --modelVersion 2 --webSiteId <Website ID> 
+    ```
+    
+    ระบบจะดาวน์โหลด Source code ของ Power Page ลงในโฟลเดอร์ปัจจุบันที่เราอยู่ใน Terminal
 
-รันคำสั่งด้านล่าง เพื่อดึงไฟล์โปรเจค Power Page Website จาก Power Platform มาใช้งาน
+3. ตรวจสอบโครงสร้าง และไฟล์ที่ได้มาจาก Power Page
 
-- ให้แทนที่ [id] ด้วย websiteId ที่ copy มาจากขั้นตอนที่แล้ว
-
-```bash
-pac powerpages download --path . --modelVersion 2 --webSiteId [id]
-```
-
-เช็คไฟล์โปรเจค Power Page Website ที่ดึงมาจาก Power Platform ว่ามีอะไรบ้าง
-
-
+**-- เสร็จสมบูรณ์ เย้ --**
 
