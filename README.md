@@ -43,11 +43,10 @@
 ## การเรียกใช้งาน Code Component
 
 1. [การเรียกใช้งาน Code Component ใน Power Page](contents/using-code-component-in-power-page.md)
-2. [การเรียกใช้งานใน Model Driven Application]
-
+2. [การเรียกใช้งานใน Model Driven Application](contents/using-code-component-in-model-driven-application.md)
 
 
 ## Publish the component
 
-1. Publish the code component
-2. การเรียกใช้ Code component ใน Power Page
+1. [Publish the code component](contents/publish-the-code-component.md)
+2. [การเรียกใช้ Code component ใน Power Page](contents/using-code-component-in-power-page.md)
