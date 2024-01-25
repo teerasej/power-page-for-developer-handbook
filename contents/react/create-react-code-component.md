@@ -74,12 +74,24 @@
 
 ## 3. Publish the code component
 
-1. ใน Power Platform Portal กดเปิด Solution
-2. กดปุ่ม Import Solution 
-3. เลือกไฟล์ Solution ที่ต้องการนำเข้า และกด next
-4. ตรวจสอบข้อมูลของ Solution และกด Import
-5. รอจนการ import เสร็จสมบูรณ์
-6. เข้าไปดู Code Component ที่นำเข้ามาใหม่ และสังเกตชื่อของ Code Component เราจะนำส่วนนี้ไปอ้างอิงใช้งานต่อ
+1. ใน Power Platform Portal กดเปิด Solution และเลือก Import Solution จากด้านบน
+<img width="617" alt="2024-01-25_08-35-21" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/8a972372-dcc1-46a9-abdb-7ef7fc53cbb6">
+
+2. เลือกไฟล์ Solution ที่ต้องการนำเข้า และกด next
+<img width="551" alt="2024-01-24_23-38-57" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/0cbc210a-d83f-429e-98cd-86695a02767e">
+
+3. ตรวจสอบข้อมูลของ Solution และกด Import
+<img width="385" alt="2024-01-25_08-28-41" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/6ab1fb8e-7104-4d93-9a5a-6bea18b227c1">
+
+4. รอจนการ import เสร็จสมบูรณ์
+<img width="513" alt="2024-01-25_08-28-50" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/65e3d514-692d-47b7-bed9-72af7454e120">
+
+5. เมื่อเสร็จแล้ว ให้เช็คว่ามี Solution ของเราอยู่ใน Environment หรือยัง และกดเข้าไป เพื่อดู Code Component ที่นำเข้ามาใหม่ 
+<img width="511" alt="2024-01-25_08-31-05" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/cec14829-e1d2-4ff2-b2cf-543b0334bca0">
+
+6. สังเกตชื่อ (Name) ของ Code Component เราจะนำส่วนนี้ไปอ้างอิงใช้งานต่อ
+<img width="454" alt="2024-01-25_08-34-11" src="https://github.com/teerasej/power-page-for-developer-handbook/assets/85179/e0abbad3-58ba-49e6-9033-53d90e570391">
+
 
 ## 4. การเรียกใช้งาน Code Component ใน Power Page
 
