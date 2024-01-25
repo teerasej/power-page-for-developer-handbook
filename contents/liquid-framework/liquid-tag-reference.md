@@ -72,7 +72,7 @@
 4. ให้กรอกข้อมูลต่างๆ ในส่วน **General** ตามรูปด้านล่างดังนี้ และกดปุ่ม **Save & Close** เมื่อเสร็จสิ้น
    1. **Name:** Product List Template
    2. **Website:** ให้เลือก Website ที่เราสร้างไว้
-   3. **Source:** 
+   3. **Source:** โดยให้แทนที่ name ใน `<entity>` ด้วยชื่อ Table ที่จดไว้ในตอนแรก
     ```html
     <h1>Title: {{ page.title }}</h1>
 
