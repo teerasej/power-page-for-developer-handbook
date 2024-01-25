@@ -1,6 +1,12 @@
 
 # การสร้าง React Code component
 
+ให้แน่ใจว่าได้ทำการ
+1. สร้าง authentication profile และเลือก environment ตามขั้นตอนนี้ [เลือก Power Page environment](../check-the-environment.md)
+2. เลือก website id [ตามขั้นตอนนี้](../accessing-power-page.md)
+
+## 1. สร้างโปรเจค Code Component ด้วย Power Platform CLI
+
 1. เปิดโปรแกรม Visual Studio Code 
 2. เช็คว่าเราได้เปิดโฟลเดอร์ **example1** (c:\Users\student\Desktop\example1) ขึ้นมาแล้ว
 3. คลิกขวาในส่วนของ Explorer view ในโปรแกรม Visual Studio Code และเลือกคำสั่ง **New folder**
